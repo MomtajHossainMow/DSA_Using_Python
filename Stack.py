@@ -4,7 +4,9 @@ stack = []
 stack.append("a")
 stack.append("b")
 stack.append("c")
+stack.append("d")
 print("Initial stack:", stack)
+
 # pop() function to pop element from stack in LIFO order
 print("Elements popped from stack: ")
 print(stack.pop())
