@@ -21,3 +21,7 @@ print("All names:", all_names)
 #Subtraction in set
 uncommon_names = all_names - common_names
 print("Uncommon names:", uncommon_names)
+
+#Access elements using for loop
+for name in all_names:
+    print(name, end=" ")
