@@ -1,7 +1,7 @@
 #Problem Link: https://leetcode.com/problems/isomorphic-strings/
 def isIsomorphic(s: str, t: str) -> bool:
     char_map1 = {}  #stores initial index of the mapped char of 's'
-    char_map2 = {}  #stores initial index of the mapped char of 's'
+    char_map2 = {}  #stores initial index of the mapped char of 't'
     length1 = len(s)
     length2 = len(t)
     ans = True
