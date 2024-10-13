@@ -1,6 +1,6 @@
 """
 A linked list is a linear data structure, in which the elements 
-are not stored at contaguous memory location.. The elements in 
+are not stored at contaguous memory location. The elements in 
 a linkedlist are linked usin pointers.
 """
 
