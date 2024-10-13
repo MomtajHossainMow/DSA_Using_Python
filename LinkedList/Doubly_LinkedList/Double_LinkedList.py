@@ -31,6 +31,15 @@ def backward_traversal(tail):
         curr = curr.prev
     print()#Print a newline at the end
 
+#Function to find the length of the list
+def find_length(head):
+    count = 0
+    curr = head
+    while curr is not None:
+        count += 1
+        curr = curr.next
+    return count
+
 if __name__ == "__main__":
     #Initialize
     head = Node(1)
@@ -51,3 +60,5 @@ if __name__ == "__main__":
     forward_traversal(head)
     print("Backward Traversal:")
     backward_traversal(fourth)
+    #Call the find_length function
+    print("Length of the doubly linked list: " + str(find_length(head)))
